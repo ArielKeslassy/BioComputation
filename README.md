@@ -20,5 +20,5 @@ python code:
 ```
 n = 3
 x = generate_subgraphs(n)
-log_subgraphs(x, "subgraphs{}.txt".format(n), n)
+log_subgraphs(x, "subgraphs_{}.txt".format(n), n)
 ```
