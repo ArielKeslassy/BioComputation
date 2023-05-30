@@ -15,7 +15,7 @@ This code utilizes the networkx library to create and manipulate directed graphs
 - Logging Subgraphs: A logging function is provided to write the generated subgraphs to a text file. The subgraphs are logged in a specified format, with each subgraph denoted by an index and its edges listed below.
 
 ### ex2.py
-this code generate all the motifs of a given graph, and counts each of them.
+This code generate all the motifs of a given graph, and counts each of them.
 - Graph generation: first, we generate networkx directed graph, given a list of edges
 - Graph partitioning: next, we create all subgraphs of size n, of the given graph.
 - Counting repetitions: then we count the subgraphs' repetitions using networkx's isomorphism methods
@@ -33,7 +33,7 @@ log_subgraphs(x, "subgraphs_{}.txt".format(n), n)
 ```
 
 ### ex2.py
-To use the code, call the generate_subgraphs function, providing the desired size of the subgraphs (motifs) as an argument, along with a ist of tuples, contating the directed input graph's edges.
+To use the code, call the generate_subgraphs function, providing the desired size of the subgraphs (motifs) as an argument, along with a list of tuples, contating the directed input graph's edges.
 
 python code:
 ```
